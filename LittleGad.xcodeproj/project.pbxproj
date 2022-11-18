@@ -14,6 +14,12 @@
 		0D3DE8542925A7C000DA69C1 /* LittleGadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE8532925A7C000DA69C1 /* LittleGadTests.swift */; };
 		0D3DE85E2925A7C000DA69C1 /* LittleGadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE85D2925A7C000DA69C1 /* LittleGadUITests.swift */; };
 		0D3DE8602925A7C000DA69C1 /* LittleGadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE85F2925A7C000DA69C1 /* LittleGadUITestsLaunchTests.swift */; };
+		0D3DE86E2925AC7A00DA69C1 /* Bridgewater.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE86C2925AC7A00DA69C1 /* Bridgewater.xcdatamodeld */; };
+		0D3DE8702925AD1200DA69C1 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE86F2925AD1200DA69C1 /* DataController.swift */; };
+		0D3DE8722926532800DA69C1 /* AddEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE8712926532800DA69C1 /* AddEntryView.swift */; };
+		0D3DE8752926583B00DA69C1 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE8742926583B00DA69C1 /* EmojiRatingView.swift */; };
+		0D3DE8772926595200DA69C1 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE8762926595200DA69C1 /* RatingView.swift */; };
+		0D3DE8792926BA9500DA69C1 /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE8782926BA9500DA69C1 /* EntryDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		0D3DE8592925A7C000DA69C1 /* LittleGadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleGadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3DE85D2925A7C000DA69C1 /* LittleGadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleGadUITests.swift; sourceTree = "<group>"; };
 		0D3DE85F2925A7C000DA69C1 /* LittleGadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleGadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D3DE86D2925AC7A00DA69C1 /* Bridgewater.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bridgewater.xcdatamodel; sourceTree = "<group>"; };
+		0D3DE86F2925AD1200DA69C1 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		0D3DE8712926532800DA69C1 /* AddEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntryView.swift; sourceTree = "<group>"; };
+		0D3DE8742926583B00DA69C1 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		0D3DE8762926595200DA69C1 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		0D3DE8782926BA9500DA69C1 /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,7 @@
 		0D3DE8362925A7B600DA69C1 = {
 			isa = PBXGroup;
 			children = (
+				0D3DE86C2925AC7A00DA69C1 /* Bridgewater.xcdatamodeld */,
 				0D3DE8412925A7B600DA69C1 /* LittleGad */,
 				0D3DE8522925A7C000DA69C1 /* LittleGadTests */,
 				0D3DE85C2925A7C000DA69C1 /* LittleGadUITests */,
@@ -94,8 +107,9 @@
 		0D3DE8412925A7B600DA69C1 /* LittleGad */ = {
 			isa = PBXGroup;
 			children = (
+				0D3DE8732926533800DA69C1 /* Views */,
+				0D3DE86F2925AD1200DA69C1 /* DataController.swift */,
 				0D3DE8422925A7B600DA69C1 /* LittleGadApp.swift */,
-				0D3DE8442925A7B600DA69C1 /* ContentView.swift */,
 				0D3DE8462925A7BF00DA69C1 /* Assets.xcassets */,
 				0D3DE8482925A7BF00DA69C1 /* Preview Content */,
 			);
@@ -125,6 +139,18 @@
 				0D3DE85F2925A7C000DA69C1 /* LittleGadUITestsLaunchTests.swift */,
 			);
 			path = LittleGadUITests;
+			sourceTree = "<group>";
+		};
+		0D3DE8732926533800DA69C1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D3DE8442925A7B600DA69C1 /* ContentView.swift */,
+				0D3DE8712926532800DA69C1 /* AddEntryView.swift */,
+				0D3DE8742926583B00DA69C1 /* EmojiRatingView.swift */,
+				0D3DE8762926595200DA69C1 /* RatingView.swift */,
+				0D3DE8782926BA9500DA69C1 /* EntryDetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3DE8792926BA9500DA69C1 /* EntryDetailView.swift in Sources */,
 				0D3DE8452925A7B600DA69C1 /* ContentView.swift in Sources */,
+				0D3DE8722926532800DA69C1 /* AddEntryView.swift in Sources */,
+				0D3DE8702925AD1200DA69C1 /* DataController.swift in Sources */,
+				0D3DE86E2925AC7A00DA69C1 /* Bridgewater.xcdatamodeld in Sources */,
+				0D3DE8752926583B00DA69C1 /* EmojiRatingView.swift in Sources */,
 				0D3DE8432925A7B600DA69C1 /* LittleGadApp.swift in Sources */,
+				0D3DE8772926595200DA69C1 /* RatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +615,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0D3DE86C2925AC7A00DA69C1 /* Bridgewater.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0D3DE86D2925AC7A00DA69C1 /* Bridgewater.xcdatamodel */,
+			);
+			currentVersion = 0D3DE86D2925AC7A00DA69C1 /* Bridgewater.xcdatamodel */;
+			path = Bridgewater.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0D3DE8372925A7B600DA69C1 /* Project object */;
 }
