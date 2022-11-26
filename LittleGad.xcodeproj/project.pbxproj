@@ -20,6 +20,9 @@
 		0D3DE8752926583B00DA69C1 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE8742926583B00DA69C1 /* EmojiRatingView.swift */; };
 		0D3DE8772926595200DA69C1 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE8762926595200DA69C1 /* RatingView.swift */; };
 		0D3DE8792926BA9500DA69C1 /* EntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DE8782926BA9500DA69C1 /* EntryDetailView.swift */; };
+		0DD1A26829280A61007F7651 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A26729280A61007F7651 /* MainView.swift */; };
+		0DD1A26D29280C5C007F7651 /* DebugMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A26C29280C5C007F7651 /* DebugMainView.swift */; };
+		0DD1A26F29280C87007F7651 /* ContactsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD1A26E29280C87007F7651 /* ContactsMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		0D3DE8742926583B00DA69C1 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 		0D3DE8762926595200DA69C1 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		0D3DE8782926BA9500DA69C1 /* EntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryDetailView.swift; sourceTree = "<group>"; };
+		0DD1A26729280A61007F7651 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		0DD1A26C29280C5C007F7651 /* DebugMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugMainView.swift; sourceTree = "<group>"; };
+		0DD1A26E29280C87007F7651 /* ContactsMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsMainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,13 +150,40 @@
 		0D3DE8732926533800DA69C1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0D3DE8442925A7B600DA69C1 /* ContentView.swift */,
-				0D3DE8712926532800DA69C1 /* AddEntryView.swift */,
-				0D3DE8742926583B00DA69C1 /* EmojiRatingView.swift */,
-				0D3DE8762926595200DA69C1 /* RatingView.swift */,
-				0D3DE8782926BA9500DA69C1 /* EntryDetailView.swift */,
+				0DD1A26B29280C3E007F7651 /* Debug */,
+				0DD1A26A29280B3A007F7651 /* Contacts */,
+				0DD1A26929280B08007F7651 /* Events */,
+				0DD1A26729280A61007F7651 /* MainView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0DD1A26929280B08007F7651 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				0D3DE8782926BA9500DA69C1 /* EntryDetailView.swift */,
+				0D3DE8712926532800DA69C1 /* AddEntryView.swift */,
+				0D3DE8762926595200DA69C1 /* RatingView.swift */,
+				0D3DE8742926583B00DA69C1 /* EmojiRatingView.swift */,
+				0D3DE8442925A7B600DA69C1 /* ContentView.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		0DD1A26A29280B3A007F7651 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1A26E29280C87007F7651 /* ContactsMainView.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		0DD1A26B29280C3E007F7651 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				0DD1A26C29280C5C007F7651 /* DebugMainView.swift */,
+			);
+			path = Debug;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,11 +317,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D3DE8792926BA9500DA69C1 /* EntryDetailView.swift in Sources */,
+				0DD1A26829280A61007F7651 /* MainView.swift in Sources */,
 				0D3DE8452925A7B600DA69C1 /* ContentView.swift in Sources */,
+				0DD1A26F29280C87007F7651 /* ContactsMainView.swift in Sources */,
 				0D3DE8722926532800DA69C1 /* AddEntryView.swift in Sources */,
 				0D3DE8702925AD1200DA69C1 /* DataController.swift in Sources */,
 				0D3DE86E2925AC7A00DA69C1 /* Bridgewater.xcdatamodeld in Sources */,
 				0D3DE8752926583B00DA69C1 /* EmojiRatingView.swift in Sources */,
+				0DD1A26D29280C5C007F7651 /* DebugMainView.swift in Sources */,
 				0D3DE8432925A7B600DA69C1 /* LittleGadApp.swift in Sources */,
 				0D3DE8772926595200DA69C1 /* RatingView.swift in Sources */,
 			);
